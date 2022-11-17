@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page-wrapper{
+    width: 905px;
+    margin: 0 auto;
+}
+.header, footer{
+    padding: 1px;
+    height: 182px;
+}
+.footer{
+    height: 182px;
+
+}
+.main{
+    height: 1872px;
+    font-size: 0;
+
+}
+.card{
+    display: inline-block;
+    height: 516px;
+    width: 420px;
+    
+}
+.right{
+   margin-left: 65px;
+}
+.long{
+    height: 546px;
+}
+.card:nth-child(3), .card:nth-child(4){
+    margin-top: 130px;
+    
+
+}
+.card:nth-child(5), .card:nth-child(6){
+    margin-top: 126px;
+    
+
+}
+.nav{
+width: 554px;
+height: 31px;
+margin: 66px ;
+margin-left: 166px;
+}
+.menu{
+ font-size: 0;   
+}
+.list-item{
+display: inline-block;
+font-size: 14px;
+margin-left: 99px;
+line-height: 30px;
+}
+.list-item:nth-child(1){
+margin-left: 0;
+}
+.card-img{
+    width: 420px;
+    height: 280px;
+}
+.section-name{
+    margin-top: 30px;
+    font-size: 14px;
+}
+.card:nth-child(1) .section-name, .card:nth-child(2) .section-name{
+    margin-top: 64px;
+
+}
+
+.section-title{
+ font-size: 30px;
+ margin-top: 30px;   
+}
+.section-tex{
+    font-size: 14px;
+    margin-top: 41px;   
+}
+.buton{
+    margin-left: 410px;
+    margin-top: 74px;
+}
+
+
